@@ -18,7 +18,7 @@ public class Scripture
 
     public void HideRandomWords(int numberToHide)
     {
-        // Se implementará la lógica completa en el proyecto final
+    
     }
 
     public string GetDisplayText()
