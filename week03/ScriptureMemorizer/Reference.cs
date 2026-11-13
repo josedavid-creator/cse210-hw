@@ -7,16 +7,14 @@ public class Reference
     private int _verse;
     private int _endVerse;
 
-    
     public Reference(string book, int chapter, int verse)
     {
         _book = book;
         _chapter = chapter;
         _verse = verse;
-        _endVerse = verse;
+        _endVerse = verse; // Si es uno solo, el final es igual al inicio
     }
 
-    
     public Reference(string book, int chapter, int startVerse, int endVerse)
     {
         _book = book;

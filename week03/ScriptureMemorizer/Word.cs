@@ -8,7 +8,7 @@ public class Word
     public Word(string text)
     {
         _text = text;
-        _isHidden = false;
+        _isHidden = false; 
     }
 
     public void Hide()
@@ -32,6 +32,9 @@ public class Word
         {
             return new string('_', _text.Length);
         }
-        return _text;
+        else
+        {
+            return _text;
+        }
     }
 }
